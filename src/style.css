@@ -90,28 +90,17 @@ main {
 /* 1024 */
 @media (min-width: 1024px) {
   .container {
-    height: 700px;
+    width: calc(50% - 25%);
+    height: 500px;
     gap: 50px;
   }
 
   .logo {
-    width: 170px;
-    height: 170px;
+    width: 140px;
+    height: 140px;
   }
 
   .login_form input {
-    font-size: 1.4rem;
-  }
-}
-
-/* 1400px */
-@media (min-width: 1400px) {
-  .container {
-    width: calc(70% - 30%);
-  }
-
-  .logo {
-    width: 200px;
-    height: 200px;
+    font-size: 0.9rem;
   }
 }
