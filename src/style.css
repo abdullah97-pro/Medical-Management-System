@@ -74,6 +74,33 @@ main {
   background-color: #0d5549;
 }
 
+.faccount {
+  text-transform: capitalize;
+}
+
+.faccount > p {
+  padding: 8px;
+}
+
+.faccount p a {
+  text-decoration: none;
+}
+
+.faccount p:last-child a {
+  background-color: #a3a3a3;
+  padding: 12px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.faccount p:first-child a:hover {
+  text-decoration: underline;
+}
+
+.faccount p:last-child a:hover {
+  background-color: #beaaaa;
+}
+
 /* 768px */
 @media (min-width: 768px) {
   .container {
@@ -92,7 +119,7 @@ main {
   .container {
     width: calc(50% - 25%);
     height: 500px;
-    gap: 50px;
+    gap: 30px;
   }
 
   .logo {
