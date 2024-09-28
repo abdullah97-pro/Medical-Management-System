@@ -62,7 +62,8 @@ main {
   font-size: 1rem;
 }
 
-.login_form input[type="submit"] {
+.login_form input[type="submit"],
+.login_form input[type="button"] {
   background-color: #3ed1b9;
   color: #fff;
   cursor: pointer;
@@ -70,7 +71,8 @@ main {
   border-radius: 4px;
 }
 
-.login_form input[type="submit"]:hover {
+.login_form input[type="submit"]:hover,
+.login_form input[type="button"]:hover {
   background-color: #0d5549;
 }
 
